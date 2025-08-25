@@ -1,0 +1,12 @@
+{
+  "name": "az900-sample-app",
+  "version": "1.0.0",
+  "description": "Simple Node server for AZ-900 app service lab",
+  "main": "sample-app/server.js",
+  "scripts": {
+    "start": "node sample-app/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
