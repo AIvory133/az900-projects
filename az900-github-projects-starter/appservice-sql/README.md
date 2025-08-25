@@ -12,3 +12,26 @@
 - PaaS web hosting vs. IaaS.
 - App settings and deployment methods (zip deploy).
 - Basic database provisioning and firewall rules.
+
+## 📸 Screenshots
+
+### 1) Setup
+![Setup](./screenshots/Setup.png)
+
+### 2) Make scripts executable
+![Make scripts executable](./screenshots/Make%20scripts%20executable.png)
+
+### 3) Deploy resources
+![Deploy resources](./screenshots/Deploy%20resources.png)
+
+### 4) Test in browser
+![Test in browser](./screenshots/Test%20in%20browser.png)
+
+### 5) Azure Portal – Resource Group
+![Azure Portal – Resource Group](./screenshots/Azure%20Portal%20-%20Resource%20Group.png)
+
+### 6) Azure Portal – Web App
+![Azure Portal – Web App](./screenshots/Azure%20Portal%20_%20Web%20App.png)
+
+### 7) Cleanup
+![Cleanup](./screenshots/Cleanup.png)
