@@ -40,7 +40,7 @@ Use the Azure Pricing Calculator to estimate costs for common resources and conf
 
 ## 📝 Part B — Budgets
 📸 **Screenshots:**
-![Budget Overview](<img width="1434" height="939" alt="Budget Overview" src="https://github.com/user-attachments/assets/b1e1fc49-517e-4910-b04e-3ad499eb4103" />
-)
-![Cost Analysis](<img width="1893" height="943" alt="Cost Analysis" src="https://github.com/user-attachments/assets/910416ec-95e1-4980-8a59-945f160e0362" />
-)
+<img width="1434" height="939" alt="Budget Overview" src="https://github.com/user-attachments/assets/db900ee1-5090-4d73-a953-c1117c17a5b7" />
+
+<img width="1893" height="943" alt="Cost Analysis" src="https://github.com/user-attachments/assets/38995940-8803-4834-a4a6-42ecc1886a9f" />
+
