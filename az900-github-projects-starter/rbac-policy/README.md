@@ -26,6 +26,21 @@ In this lab, you create a resource group, define and assign a custom policy, tes
   
 - IAM Reader Role  <img width="1485" height="818" alt="iam-reader" src="https://github.com/user-attachments/assets/638d9298-eee4-4777-8a9f-2a8208c06646" />
   
+---
+
+## Cleanup
+
+When finished, remove everything in the correct order to avoid dependency errors:
+
+# Remove policy assignments (ignore if missing)
+az policy assignment delete --name allowed-vm-sizes-b-only-assignment-eus2 \
+  --scope "/subscriptions/$(az account show --query id -o tsv)/resourceGroups/rg-governance-lab-eus2" || true
+
+# Remove the policy definition (safe if already deleted)
+az policy definition delete --name allowed-vm-sizes-b-only || true
+
+# Remove the resource groups (safe if already gone)
+az group delete -n rg-governance-lab-eus2 -y --no-wait || true
 
 `  
 
