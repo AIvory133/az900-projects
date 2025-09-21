@@ -19,13 +19,13 @@ In this lab, you create a resource group, define and assign a custom policy, tes
 
 ## 📂 Proof Locations
 - Policy Assignment  <img width="1874" height="608" alt="policy-assignment" src="https://github.com/user-attachments/assets/73a522b8-25fb-4670-8518-fd0b4944dbb3" />
-)  
+  
 - Deny Proof  <img width="1900" height="1059" alt="vm-deny" src="https://github.com/user-attachments/assets/2cd74541-91b8-4509-968e-875a0f44ce90" />
-)  
+  
 - Allow Proof  <img width="939" height="178" alt="vm-allow" src="https://github.com/user-attachments/assets/6483dea4-189c-429a-a7c8-b8c74d490c33" />
-)  
+  
 - IAM Reader Role  <img width="1485" height="818" alt="iam-reader" src="https://github.com/user-attachments/assets/638d9298-eee4-4777-8a9f-2a8208c06646" />
-)  
+  
 
 `  
 
