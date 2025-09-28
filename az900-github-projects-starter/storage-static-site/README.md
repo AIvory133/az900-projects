@@ -15,7 +15,6 @@ By completing this lab, you will:
 - Enable **Static Website** hosting on Azure Storage.
 - Upload an `index.html` and optional `404.html` page into the `$web` container.
 - Verify public access through the static website endpoint.
-- (Optional) Generate a **SAS token** for restricted access to blobs.
 - Clean up resources to avoid unnecessary costs.
 
 ---
@@ -37,14 +36,16 @@ Shows the `rg-az900-storage-eus2` resource group with the storage account inside
 ### 2. Static Website Settings
 Static website hosting enabled with `index.html` and `404.html` configured.
 
-![Static Website Settings](screenshots/StaticWebsite_Settings.png)
+<img width="1900" height="866" alt="Static Website Settings" src="https://github.com/user-attachments/assets/10c0ddc6-2e7e-40ed-b6ef-5d9b03b4d3fb" />
+
 
 ---
 
 ### 3. `$web` Container
 Uploaded site content (`index.html`, `404.html`) to the special `$web` container.
 
-![Web Container](screenshots/WebContainer.png)
+<img width="1894" height="591" alt="$web Contatiner" src="https://github.com/user-attachments/assets/ea084c95-d2eb-42c1-be48-c3881ad3af1b" />
+
 
 ---
 
@@ -52,12 +53,14 @@ Uploaded site content (`index.html`, `404.html`) to the special `$web` container
 The deployed static site served from Azure Storage at  
 `https://<your-storage-account>.z20.web.core.windows.net/`
 
-![Browser Homepage](screenshots/Browser_Homepage.png)
+<img width="1915" height="625" alt="Browser Homepage" src="https://github.com/user-attachments/assets/8b8d8c0f-9ab8-4e39-8ee3-ea8518253df0" />
+
 
 ---
 
 ### 5. Terminal Verification
 Curl command showing **200 OK** response from the static site endpoint.
 
-![Curl showing 200 OK](screenshots/Curl_OK.png)
+<img width="1308" height="515" alt="Terminal Verification" src="https://github.com/user-attachments/assets/20cd9889-d15d-4bc3-baa5-ad3f76d1ffaf" />
+
 
