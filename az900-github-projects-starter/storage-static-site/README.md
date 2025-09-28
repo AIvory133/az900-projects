@@ -64,3 +64,14 @@ Curl command showing **200 OK** response from the static site endpoint.
 <img width="1308" height="515" alt="Terminal Verification" src="https://github.com/user-attachments/assets/20cd9889-d15d-4bc3-baa5-ad3f76d1ffaf" />
 
 
+---
+
+## 🧹 Cleanup
+
+When you finish the lab, delete the resource group to avoid ongoing charges.  
+This will remove the storage account and all associated resources.
+
+
+# Replace with your resource group name if different
+az group delete -n rg-az900-storage-eus2 --yes --no-wait
+
