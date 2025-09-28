@@ -23,8 +23,44 @@ By completing this lab, you will:
 
 ---
 
-## ⚙️ Steps
+## 📸 Screenshots
 
-1. **Deploy resources**
-   ```bash
-   bash ./deploy.sh --location eastus2 --resource-group rg-az900-storage-eus2
+A walkthrough of the **Azure Storage Static Website Lab** deployment.
+
+---
+
+### 1. Resource Group Overview
+Shows the `rg-az900-storage-eus2` resource group with the storage account inside.
+
+![Resource Group Overview]<img width="1885" height="672" alt="Resource Group Overview" src="https://github.com/user-attachments/assets/47122d34-0dfd-46eb-b10e-b4bf955ab6ee" />
+
+
+---
+
+### 2. Static Website Settings
+Static website hosting enabled with `index.html` and `404.html` configured.
+
+![Static Website Settings](screenshots/StaticWebsite_Settings.png)
+
+---
+
+### 3. `$web` Container
+Uploaded site content (`index.html`, `404.html`) to the special `$web` container.
+
+![Web Container](screenshots/WebContainer.png)
+
+---
+
+### 4. Browser Homepage
+The deployed static site served from Azure Storage at  
+`https://<your-storage-account>.z20.web.core.windows.net/`
+
+![Browser Homepage](screenshots/Browser_Homepage.png)
+
+---
+
+### 5. Terminal Verification
+Curl command showing **200 OK** response from the static site endpoint.
+
+![Curl showing 200 OK](screenshots/Curl_OK.png)
+
