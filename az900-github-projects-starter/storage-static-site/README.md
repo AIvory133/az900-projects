@@ -1,9 +1,6 @@
 # 🚀 Storage Static Website Lab (PaaS Storage)
 
-[![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure)](https://azure.microsoft.com)
-[![Category](https://img.shields.io/badge/Service-Storage%20Account-green)](https://learn.microsoft.com/azure/storage/blobs/storage-blob-static-website)
-[![Level](https://img.shields.io/badge/Difficulty-Beginner-yellow)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)]()
+
 
 ---
 
@@ -32,7 +29,7 @@ A walkthrough of the **Azure Storage Static Website Lab** deployment.
 ### 1. Resource Group Overview
 Shows the `rg-az900-storage-eus2` resource group with the storage account inside.
 
-![Resource Group Overview]<img width="1885" height="672" alt="Resource Group Overview" src="https://github.com/user-attachments/assets/47122d34-0dfd-46eb-b10e-b4bf955ab6ee" />
+<img width="1885" height="672" alt="Resource Group Overview" src="https://github.com/user-attachments/assets/47122d34-0dfd-46eb-b10e-b4bf955ab6ee" />
 
 
 ---
